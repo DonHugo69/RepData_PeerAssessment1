@@ -28,7 +28,7 @@ histogram(data = steps_per_day, ~ steps_per_day, type = "density",
           xlab = "Number of steps taken per day", ylab = "Density")
 ```
 
-![](/home/roland/datascience/Exploratory Data Analysis/RepData_PeerAssessment1/PA1_template-exported_files/figure-html/mean-total-number-steps-1.png)<!-- -->
+![](PA1_template_files/figure-html/mean-total-number-steps-1.png)<!-- -->
 
 ```r
 ## Calculate and report the mean and median of the total number of steps taken per day
@@ -61,7 +61,7 @@ xyplot(data = daily_activity,
        ylab = "Average steps per day")
 ```
 
-![](/home/roland/datascience/Exploratory Data Analysis/RepData_PeerAssessment1/PA1_template-exported_files/figure-html/daily-activity-1.png)<!-- -->
+![](PA1_template_files/figure-html/daily-activity-1.png)<!-- -->
 
 ```r
 ## Which 5-minute interval, on average across all the days in the dataset,
@@ -109,7 +109,7 @@ histogram(data = steps_per_day, ~ steps_per_day, type = "density",
           xlab = "Number of steps taken per day", ylab = "Density")
 ```
 
-![](/home/roland/datascience/Exploratory Data Analysis/RepData_PeerAssessment1/PA1_template-exported_files/figure-html/missing-values-1.png)<!-- -->
+![](PA1_template_files/figure-html/missing-values-1.png)<!-- -->
 
 ```r
 cat("Mean steps per day: ", mean(steps_per_day$steps_per_day, na.rm = TRUE))
@@ -169,4 +169,4 @@ xyplot(data = daily_activity,
        ylab = "Average steps per day")
 ```
 
-![](/home/roland/datascience/Exploratory Data Analysis/RepData_PeerAssessment1/PA1_template-exported_files/figure-html/weekdays-1.png)<!-- -->
+![](PA1_template_files/figure-html/weekdays-1.png)<!-- -->
